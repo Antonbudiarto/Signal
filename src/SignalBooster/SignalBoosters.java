@@ -70,7 +70,7 @@ public class SignalBoosters {
         w.makeTree(new Booster(1), x, x);
         LinkedBinaryTree t = new LinkedBinaryTree();
         t.makeTree(new Booster(0), y, w);
-        v.makeTree(new Booster(1), t, u);
+        v.makeTree(new Booster(1), t, u); 
 
         tolerance = 3;
         Class[] paramType = {BinaryTreeNode.class};
